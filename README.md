@@ -1,7 +1,5 @@
 # Resource-Manager-Simulation
 
-**Code will be added once project is turned in**
-
 This simulation keeps tracks of system state and utilizes a deadlock detection protocol along with showing how the operating system works as a resource manager.
 
 Given complete knowledge of the current state of the system, it should be possible for a resource manager to conduct an evaluation of the system.  Obviously, a request for a resource that is currently being used cannot be granted, and the requesting process must be delayed.  However, sometimes a process is not merely delayed, but deadlocked; and the resource manager should be able to detect this problem and either produce diagnostic output or take corrective measures.  
